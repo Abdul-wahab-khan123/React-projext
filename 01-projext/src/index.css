@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    height: 100vh;
+}
+
+@font-face {
+    font-family: OutfitRegular;
+    src: url(./fonts/OutfitRegular.ttf);
+}
+@font-face {
+    font-family: OutfitMedium;
+    src: url(./fonts/OutfitMedium.ttf);
+}
+@font-face {
+    font-family: OutfitBold;
+    src: url(./fonts/OutfitBold.ttf);
+}
+
+.OutfitRegular{
+    font-family: OutfitRegular;
+}
+.OutfitMedium{
+    font-family: OutfitMedium;
+}
+.OutfitBold{
+    font-family: OutfitBold;
+}
+
+h1,h2,h3{
+    font-family: OutfitBold;
+}
+a, button, ul li
+{
+    font-family: OutfitMedium;
+}
+p{
+    font-family: OutfitRegular;
+}
