@@ -1,16 +1,23 @@
-import React from "react";
+import axios from 'axios'
+import { useState } from 'react';
 
 const App = () => {
-  
-  function change(elem) {
-    console.log(elem.target.value)
+
+  const[data ,setData] = useState([]);
+
+  const dataGet = async () => {
+    const response = await axios.get('https://picsum.photos/v2/list');
+    setData(response.data);
   }
 
   return (
     <div>
-      <input type="text" onChange={change} placeholder="First Name" />
+      <button onClick={dataGet}>Data Get</button>
+      {data.map(function(elem, idx){
+        return <h1>Data{idx}</h1>
+      })}
     </div>
-  );
+  )
 };
 
 export default App;
