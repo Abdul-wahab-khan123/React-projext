@@ -1,21 +1,19 @@
-import axios from 'axios'
-import { useState } from 'react';
+import react from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Header from './components/Header';
 
 const App = () => {
-
-  const[data ,setData] = useState([]);
-
-  const dataGet = async () => {
-    const response = await axios.get('https://picsum.photos/v2/list');
-    setData(response.data);
-  }
-
   return (
     <div>
-      <button onClick={dataGet}>Data Get</button>
-      {data.map(function(elem, idx){
-        return <h1>Data{idx}</h1>
-      })}
+      <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
     </div>
   )
 };
