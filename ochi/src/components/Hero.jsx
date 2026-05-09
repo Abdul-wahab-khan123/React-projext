@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
+import { motion } from "motion/react"
 
 const Hero = () => {
   return (
@@ -9,9 +10,13 @@ const Hero = () => {
                 return (
                 <div className='flex items-end gap-3'>
                     {index === 1 &&(
-                        <div className="h-20 w-[10vw] bg-amber-800 rounded-xl overflow-hidden">
+                        <motion.div 
+                        initial={{ width: 0 }} 
+                        animate={{ width: "10vw" }} 
+                        transition={{ delay: 0.5, duration: 1, ease: "easeInOut" }}
+                        className="h-20 w-[10vw] rounded-xl overflow-hidden">
                             <img src="src/assets/content-image01.jpg" alt="img" className='w-full h-full object-cover' />
-                        </div>
+                        </motion.div>
                     )}
                     <h1 className='font-[FoundersGrotesk] text-[10vw] leading-[7.5vw] font-bold uppercase'>{item}</h1>
                 </div>
