@@ -9,7 +9,7 @@ const Marquee = () => {
           initial={{ x: "0%" }} 
           animate={{ x: "-100%" }} 
           transition={{ease: "linear", duration: 5, repeat: Infinity}}
-          className='text-white text-[27vw] font-bold leading-[20vw]  font-[FoundersGrotesk]'
+          className='text-white text-[27vw] font-bold leading-[20vw]  font-[FoundersGrotesk] pr-5'
         >
           WE ARE OCHI
         </motion.h1>
@@ -17,7 +17,7 @@ const Marquee = () => {
           initial={{ x: "0%" }} 
           animate={{ x: "-100%" }}
           transition={{ease: "linear", duration: 5, repeat: Infinity}}
-          className='text-white text-[27vw] font-bold leading-[20vw] font-[FoundersGrotesk]'
+          className='text-white text-[27vw] font-bold leading-[20vw] font-[FoundersGrotesk] pr-5'
         >
           WE ARE OCHI
         </motion.h1>
