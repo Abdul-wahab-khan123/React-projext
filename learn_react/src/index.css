@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body{
+    background-color: #ececec;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.card-sec{
+    padding: 40px 0px 0px;
+}
+.card-sec .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.card_wrp {
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 6px;
+    background: #fff;
+    border-radius: 40px;
+}
+.card_wrp img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}
+.card_wrp .txt{
+    padding: 15px 15px 20px;
+}
+.card_wrp .txt h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #000;
+    margin: 0px 0px 6px;
+}
+.card_wrp .txt p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+    margin: 0px 0px 20px;
+}
+.card_wrp .txt ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.card_wrp .txt ul li{
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.card_wrp .txt ul li svg{
+    color: #787878;
+}
+.card_wrp .txt .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card_wrp .txt button {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 0px;
+    background: #ececec;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
