@@ -2,26 +2,11 @@
 
 body{
     background-color: #fafbfe;
+    font-family: "Geomini", sans-serif;
 }
 
 @font-face {
     font-family: "Geomini";
     src: url("./assets/fonts/Geomini-VariableFont_wght.ttf") format("truetype");
     font-weight: 400, 500, 600, 700, 800, 900;
-}
-
-.Geomini-Bold {
-    font-family: "Geomini", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: "Geomini", sans-serif;
-}
-p, a, span, li, small, input, textarea, button{
-    font-family: "Geomini", sans-serif;
-}
-
-input:focus ,button:focus, textarea:focus{
-    box-shadow: none !important;
-    outline: none !important;
 }

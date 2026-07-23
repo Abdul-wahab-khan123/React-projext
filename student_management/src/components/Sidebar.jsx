@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink  } from 'react-router-dom';
 import { LuLayoutDashboard } from "react-icons/lu";
 import { IoSettingsOutline } from "react-icons/io5";
 import { PiStudentBold } from "react-icons/pi";
@@ -11,29 +11,29 @@ const Sidebar = () => {
 
   const bar =[
     {
-        icon: <LuLayoutDashboard className='text-black text-[20px] font-medium'/> ,
+        icon: <LuLayoutDashboard className='text-[20px] font-medium'/> ,
         name :"Dashboard",
         link : "/",
     },
     {
-        icon: <PiStudentBold className='text-black text-[20px] font-medium'/> ,
+        icon: <PiStudentBold className='text-[20px] font-medium'/> ,
         name :"Students",
         link : "/student",
     },
     {
-        icon: <MdOutlinePersonAddAlt1 className='text-black text-[20px] font-medium'/> ,
+        icon: <MdOutlinePersonAddAlt1 className='text-[20px] font-medium'/> ,
         name :"Add Students",
-        link : "/",
+        link : "/student",
     },
     {
-        icon: <MdMenuBook className='text-black text-[20px] font-medium'/> ,
+        icon: <MdMenuBook className='text-[20px] font-medium'/> ,
         name :"Courses",
-        link : "/",
+        link : "/student",
     },
     {
-        icon: <IoSettingsOutline className='text-black text-[20px] font-medium'/> ,
+        icon: <IoSettingsOutline className='text-[20px] font-medium'/> ,
         name :"Settings",
-        link : "/",
+        link : "/student",
     }
   ]
 
@@ -43,9 +43,10 @@ const Sidebar = () => {
         <img src="/public/images/graduation.png" alt="img"  className='w-14'/>
         <ul className='mt-15'>
             {bar.map((item,index)=>(
-                <li key={index} className='mb-2 px-4 py-3 bg-white rounded-[10px] flex items-center gap-2'>
-                    {item.icon}
-                    <Link to={item.link} className='text-black text-sm font-medium'>{item.name}</Link>
+                <li key={index}>
+                    <NavLink  to={item.link} className={({ isActive }) => `text-sm font-medium mb-2 px-4 py-3 rounded-xl flex items-center gap-2 transition-all duration-300 ease-in-out ${ isActive ? "bg-[#e9b849] text-white" : "text-black bg-white hover:bg-[#e9b849] hover:text-white"}`}>
+                       {item.icon} <span>{item.name}</span>
+                    </NavLink>
                 </li>
             ))}
         </ul>
