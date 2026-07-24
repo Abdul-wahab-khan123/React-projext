@@ -1,4 +1,5 @@
-import React from 'react'
+import { useState } from "react";
+import { students as studentData } from "../data/Students";
 import { PiUsersFill } from "react-icons/pi";
 import { PiUsersThreeFill } from "react-icons/pi";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
@@ -39,16 +40,18 @@ const Stats = (props) => {
         }
     ]
 
+    const localStudents = JSON.parse(localStorage.getItem("students"));  
+    const [students, setStudents] = useState(localStudents || studentData);
+
     return (
         <div className="relative">
-            <div className="container w-[95%] mx-auto">
+            <div>
                 <h2 className='text-2xl text-black font-bold mb-5'>
                     Student Management System
                 </h2>
                 <div className="flex justify-between items-center gap-5">
                     {stat.map((item, index) => (
-                        <div key={index} className="
-                        bg-white flex justify-between items-end gap-10 px-5 py-5 rounded-xl shadow-lg border border-gray-200 w-full">
+                        <div key={index} className="bg-white flex justify-between items-end gap-10 px-5 py-5 rounded-xl shadow-lg border border-gray-200 w-full">
                             <div className="flex justify-between items-center gap-3">
                                 <div className={`flex justify-between items-center ${item.bgcolor} text-white text-2xl px-3 py-3 rounded-md`}>
                                     {item.icon}
@@ -69,7 +72,7 @@ const Stats = (props) => {
                         <SearchBar />
                         <Button />
                     </div>
-                    <StudentTable students={students.slice(0,3)} />
+                    <StudentTable students={students} />
                 </div>
             </div>
         </div>

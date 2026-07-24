@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 const StudentTable = ({ students }) => {
 
@@ -16,9 +16,9 @@ const StudentTable = ({ students }) => {
           </tr>
         </thead>
         <tbody>
-          {students.map((student) => (
+          {students.map((student ,index) => (
             <tr key={student.id} className="border-b border-gray-200 hover:bg-gray-100 transition">
-              <td className="text-sm px-5 py-3">{student.id}</td>
+              <td className="text-sm px-5 py-3">{index + 1}</td>
               <td className="text-sm px-5 py-3 font-medium">{student.name}</td>
               <td className="text-sm px-5 py-3">{student.email}</td>
               <td className="text-sm px-5 py-3">{student.course}</td>

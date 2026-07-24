@@ -2,14 +2,15 @@ import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import Student from './pages/Student';
+import AddStudent from './pages/AddStudent';
 
 function App() {
-
   return (
     <>
       <Routes>
           <Route path='/' element={<Dashboard />} />
           <Route path='/student' element={<Student />} />
+          <Route path='/addstudent' element={<AddStudent />} />
       </Routes>
     </>
   )
@@ -19,18 +20,46 @@ export default App
 
 // student-management/
 
-// src/
-
-// ├── assets/
+// src
 // │
-// ├── components/
-// │   ├── StudentForm.jsx
+// ├── assets
+// │   ├── images
+// │   └── icons
 // │
-// ├── pages/
-// │   └── Home.jsx
+// ├── components
+// │   ├── Button.jsx
+// │   ├── Input.jsx
+// │   ├── SearchBar.jsx
+// │   ├── Sidebar.jsx
+// │   ├── Navbar.jsx
+// │   ├── Stats.jsx
+// │   ├── StudentTable.jsx
+// │   ├── Select.jsx
+// │   ├── Radio.jsx
+// │   ├── TextArea.jsx
+// │   ├── UploadImage.jsx
+// │   ├── Card.jsx
+// │   └── Modal.jsx
 // │
-// ├── styles/
-// │   └── style.css
+// ├── layouts
+// │   └── Layout.jsx
+// │
+// ├── pages
+// │   ├── Dashboard.jsx
+// │   ├── Student.jsx
+// │   ├── AddStudent.jsx
+// │   ├── EditStudent.jsx
+// │   ├── Courses.jsx
+// │   ├── Teachers.jsx
+// │   ├── Attendance.jsx
+// │   ├── Fees.jsx
+// │   ├── Results.jsx
+// │   └── Settings.jsx
+// │
+// ├── data
+// │   ├── students.js
+// │   ├── courses.js
+// │   └── teachers.js
 // │
 // ├── App.jsx
 // └── main.jsx

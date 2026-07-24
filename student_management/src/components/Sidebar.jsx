@@ -5,7 +5,6 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { PiStudentBold } from "react-icons/pi";
 import { MdOutlinePersonAddAlt1 } from "react-icons/md";
 import { MdMenuBook } from "react-icons/md";
-import Dashboard from '../pages/Dashboard';
 
 const Sidebar = () => {
 
@@ -23,23 +22,13 @@ const Sidebar = () => {
     {
         icon: <MdOutlinePersonAddAlt1 className='text-[20px] font-medium'/> ,
         name :"Add Students",
-        link : "/student",
+        link : "/addstudent",
     },
-    {
-        icon: <MdMenuBook className='text-[20px] font-medium'/> ,
-        name :"Courses",
-        link : "/student",
-    },
-    {
-        icon: <IoSettingsOutline className='text-[20px] font-medium'/> ,
-        name :"Settings",
-        link : "/student",
-    }
   ]
 
   return (
     <>
-      <div className="bg-black w-full h-dvh px-4 py-4">
+      <div className="bg-black w-full h-full px-4 py-4">
         <img src="/public/images/graduation.png" alt="img"  className='w-14'/>
         <ul className='mt-15'>
             {bar.map((item,index)=>(

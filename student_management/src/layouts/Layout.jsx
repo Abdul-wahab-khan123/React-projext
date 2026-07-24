@@ -1,11 +1,11 @@
-import React from "react";
+import { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 
 const Layout = ({ children }) => {
   return (
 
-    <div className="flex h-dvh">
+    <div className="flex">
       <div className="w-[20%]">
         <Sidebar />
       </div>

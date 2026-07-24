@@ -1,13 +1,17 @@
-import React from 'react'
+import { useState } from "react";
+import { students as studentData } from "../data/Students";
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/sidebar'
 import SearchBar from '../components/SearchBar'
 import Button from '../components/Button'
 import StudentTable from '../components/StudentTable'
-import { students } from "../data/students";
 import Layout from '../layouts/Layout'
 
 const Student = () => {
+  
+  const localStudents = JSON.parse(localStorage.getItem("students"));  
+  const [students, setStudents] = useState(localStudents || studentData);
+  
   return (
     <div>
       <Layout>
