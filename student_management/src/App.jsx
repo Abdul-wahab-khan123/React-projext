@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom';
+import { useParams } from "react-router-dom";
 import Dashboard from './pages/Dashboard';
 import Student from './pages/Student';
 import AddStudent from './pages/AddStudent';
+import EditStudent from './pages/EditStudent';
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       <Routes>
           <Route path='/' element={<Dashboard />} />
           <Route path='/student' element={<Student />} />
-          <Route path='/addstudent' element={<AddStudent />} />
+          <Route path='/add-student' element={<AddStudent />} />
+          <Route path="/edit-student/:id" element={<EditStudent />} />
       </Routes>
     </>
   )

@@ -11,6 +11,11 @@ const Student = () => {
   
   const localStudents = JSON.parse(localStorage.getItem("students"));  
   const [students, setStudents] = useState(localStudents || studentData);
+
+  const handleEdit = (id) => {
+    const student = students.find((student) => student.id === id)
+    console.log(student);
+  }
   
   return (
     <div>
@@ -20,7 +25,7 @@ const Student = () => {
                   <SearchBar />
                   <Button />
               </div>
-              <StudentTable students={students} />
+              <StudentTable students={students} handleEdit={handleEdit} />
           </div>
        </Layout>
     </div>

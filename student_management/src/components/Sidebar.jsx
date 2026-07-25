@@ -22,7 +22,7 @@ const Sidebar = () => {
     {
         icon: <MdOutlinePersonAddAlt1 className='text-[20px] font-medium'/> ,
         name :"Add Students",
-        link : "/addstudent",
+        link : "/add-student",
     },
   ]
 

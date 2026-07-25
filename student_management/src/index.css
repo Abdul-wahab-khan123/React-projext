@@ -10,3 +10,27 @@ body{
     src: url("./assets/fonts/Geomini-VariableFont_wght.ttf") format("truetype");
     font-weight: 400, 500, 600, 700, 800, 900;
 }
+
+.tabel_hight{
+    height: 356px;
+}
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e9b849;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d39c1a;
+}
