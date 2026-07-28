@@ -3,7 +3,8 @@ import Navbar from '../components/Navbar'
 import Stats from '../components/Stats'
 import Sidebar from '../components/sidebar'
 import Layout from '../layouts/Layout'
-import { useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 const AddStudent = () => {
     
@@ -105,9 +106,9 @@ const AddStudent = () => {
                             <button type="submit" className="bg-yellow-500 text-white px-5 py-2 rounded-lg cursor-pointer">
                                 Add Student
                             </button>
-                            <button className="bg-gray-400 text-white px-5 py-2 rounded-lg cursor-pointer">
+                            <Link to="/Student" className="bg-gray-400 text-white px-5 py-2 rounded-lg cursor-pointer">
                                 Cancel
-                            </button>
+                            </Link>
                         </div>
                     </form>
                 </div>

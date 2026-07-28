@@ -2,13 +2,13 @@ import React from 'react'
 import { RiMenu2Line } from "react-icons/ri";
 import { IoIosNotificationsOutline } from "react-icons/io";
 
-const Navbar = () => {
+const Navbar = ({isOpen, setIsOpen}) => {
   return (
     <header className="relative py-3 bg-white shadow">
         <div className="container w-[95%] mx-auto">
             <nav className="flex justify-between items-center">
                 <div>
-                    <button className=''>
+                    <button onClick={() => setIsOpen(!isOpen)}>
                         <RiMenu2Line  className='text-black text-3xl'/>
                     </button>
                 </div>
