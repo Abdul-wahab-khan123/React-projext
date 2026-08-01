@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Geomini", serif;
+}
+
+.Recoleta {
+  font-family: "Recoleta", serif;
+}
+
+@font-face {
+  font-family: Recoleta;
+  src: url(./assets/Font/recoleta-regulardemo.otf);
+}
+@font-face {
+  font-family: Geomini;
+  src: url(./assets/Font/Geomini-VariableFont_wght.ttf);
+}
