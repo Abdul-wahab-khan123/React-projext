@@ -1,24 +1,23 @@
-Geomini Variable Font
-=====================
+Mozilla Text Variable Font
+==========================
 
-This download contains Geomini as both a variable font and static fonts.
+This download contains Mozilla Text as both a variable font and static fonts.
 
-Geomini is a variable font with this axis:
+Mozilla Text is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  Geomini-VariableFont_wght.ttf
+  MozillaText-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Geomini:
-  static/Geomini-ExtraLight.ttf
-  static/Geomini-Light.ttf
-  static/Geomini-Regular.ttf
-  static/Geomini-Medium.ttf
-  static/Geomini-SemiBold.ttf
-  static/Geomini-Bold.ttf
-  static/Geomini-ExtraBold.ttf
+in those cases you can use the static font files for Mozilla Text:
+  static/MozillaText-ExtraLight.ttf
+  static/MozillaText-Light.ttf
+  static/MozillaText-Regular.ttf
+  static/MozillaText-Medium.ttf
+  static/MozillaText-SemiBold.ttf
+  static/MozillaText-Bold.ttf
 
 Get started
 -----------

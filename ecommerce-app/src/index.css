@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: "Geomini", serif;
+   font-family: "MozillaText", sans-serif;
 }
 
 .Recoleta {
@@ -16,7 +16,20 @@ body{
   font-family: Recoleta;
   src: url(./assets/Font/recoleta-regulardemo.otf);
 }
+
 @font-face {
   font-family: Geomini;
   src: url(./assets/Font/Geomini-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: MozillaText;
+  src: url(./assets/Font/MozillaText-VariableFont_wght.ttf);
+}
+
+:root {
+  --primary-color: #342617;
+  --secondary-color: #ebe3da;
+  --light-color: #825e3a;
+  --text-color: #7e7e7e;
 }
