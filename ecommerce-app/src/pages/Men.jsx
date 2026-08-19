@@ -7,8 +7,7 @@ import MostRecommend from '../components/MostRecommend'
 import SummerCollection from '../components/SummerCollection'
 import CTASection from '../components/CTASection'
 
-
-const Home = () => {
+const Men = () => {
   return (
     <>
       <Layout>
@@ -23,4 +22,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Men

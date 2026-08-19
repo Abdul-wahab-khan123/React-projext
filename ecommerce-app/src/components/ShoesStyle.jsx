@@ -31,9 +31,9 @@ const ShoesStyle = () => {
     <div className="relative overflow-hidden px-10 pt-27">
       <div className="grid grid-cols-3 gap-8">
         {shoesStyle.map((item, index)=>(
-          <div className="w-full h-190 relative overflow-hidden rounded-4xl">
+          <div className="w-full h-190 relative overflow-hidden rounded-4xl group">
             {/* Image */}
-            <img src={item.image} alt={item.title} className="absolute inset-0 w-full h-full object-cover"/>
+            <img src={item.image} alt={item.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"/>
             {/* Black Overlay */}
             <div className="absolute inset-0 bg-black/40"></div>
             {/* Content */}

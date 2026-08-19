@@ -7,7 +7,7 @@ import { FiShoppingCart } from "react-icons/fi";
 
 const Navbar = () => {
   const links = [
-    { name: 'Men', path: '/' },
+    { name: 'Men', path: '/Men' },
     { name: 'Women', path: '/' },
     { name: 'Kids', path: '/' },
     { name: 'Collection', path: '/' },
@@ -19,11 +19,11 @@ const Navbar = () => {
       <div className="w-full absolute top-0 py-5 px-10 z-10">
         <nav className='flex items-center justify-between'>
           <div>
-            <h1 className='text-white text-2xl font-bold'>LOGO HERE</h1>
+            <h1 className='text-white text-2xl font-bold Recoleta'>LOGO HERE</h1>
           </div>
           <ul className='flex items-center gap-8'>
             {links.map((link, index) => (
-              <li>
+              <li key={link.name}>
                 <NavLink to={link.path} className="group relative inline-flex h-7 overflow-hidden">
                   <span className="relative flex flex-col transition-transform duration-700 ease-[cubic-bezier(.76,0,.24,1)] group-hover:-translate-y-7">
                     <span className="h-7 leading-7 text-lg text-white">

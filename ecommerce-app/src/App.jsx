@@ -3,8 +3,8 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import Home from './pages/Home'
-import Products from './pages/Products'
-import Card from './pages/Card'
+import Men from './pages/Men'
+import ProductDetail from './pages/ProductDetail'
 
 function App() {
 
@@ -12,8 +12,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/products" element={<Products />}/>
-        <Route path="/card" element={<Card />}/>
+        <Route path="/men" element={<Men />}/>
+        <Route path="/product/:id" element={<ProductDetail />}/>
       </Routes>
     </>
   )
