@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-
 import Home from './pages/Home'
-import Men from './pages/Men'
+import Shop from './pages/Shop'
 import ProductDetail from './pages/ProductDetail'
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/men" element={<Men />}/>
+        <Route path="/shop" element={<Shop />}/>
         <Route path="/product/:id" element={<ProductDetail />}/>
       </Routes>
     </>
@@ -20,15 +19,3 @@ function App() {
 }
 
 export default App
-
-// Home Page
-// │
-// ├── Hero Section
-// ├── Categories
-// ├── Featured Products
-// ├── New Arrivals
-// ├── Best Sellers
-// ├── Sale Banner
-// ├── Why Choose Us
-// ├── Testimonials
-// ├── Newsletter

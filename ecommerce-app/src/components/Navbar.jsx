@@ -7,11 +7,12 @@ import { FiShoppingCart } from "react-icons/fi";
 
 const Navbar = () => {
   const links = [
-    { name: 'Men', path: '/Men' },
-    { name: 'Women', path: '/' },
-    { name: 'Kids', path: '/' },
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/About' },
+    { name: 'Shop', path: '/Shop' },
     { name: 'Collection', path: '/' },
-    { name: 'Brands', path: '/' }
+    { name: 'Brands', path: '/' },
+    { name: 'Contact', path: '/Contact' }
   ];
 
   return (
@@ -22,7 +23,7 @@ const Navbar = () => {
             <h1 className='text-white text-2xl font-bold Recoleta'>LOGO HERE</h1>
           </div>
           <ul className='flex items-center gap-8'>
-            {links.map((link, index) => (
+            {links.map((link) => (
               <li key={link.name}>
                 <NavLink to={link.path} className="group relative inline-flex h-7 overflow-hidden">
                   <span className="relative flex flex-col transition-transform duration-700 ease-[cubic-bezier(.76,0,.24,1)] group-hover:-translate-y-7">
