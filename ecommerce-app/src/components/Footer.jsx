@@ -4,25 +4,21 @@ import { FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   const categories = [
-    { id: 1, name: "Men", link: "/men" },
-    { id: 2, name: "Women", link: "/women" },
-    { id: 3, name: "Kids", link: "/kids" },
-    { id: 4, name: "Collections", link: "/collections" },
-    { id: 5, name: "Brands", link: "/brands" },
+    { id: 1, name: "Home", link: "/home" },
+    { id: 2, name: "About", link: "/about" },
+    { id: 3, name: "Shop", link: "/shop" },
+    { id: 4, name: "Contact Us", link: "/contact" },
   ];
 
   const legalLinks = [
     { id: 1, name: "Privacy Policy", link: "/privacy" },
     { id: 2, name: "Terms & Conditions", link: "/terms" },
-    { id: 3, name: "Refund Policy", link: "/refund" },
-    { id: 4, name: "Shipping Policy", link: "/shipping" },
   ];
 
   const helpLinks = [
-    { id: 1, name: "Contact Us", link: "/contact" },
-    { id: 2, name: "FAQs", link: "/faq" },
-    { id: 3, name: "Track Order", link: "/orders" },
-    { id: 4, name: "Customer Support", link: "/support" },
+    { id: 1, name: "FAQs", link: "/faq" },
+    { id: 2, name: "Track Order", link: "/orders" },
+    { id: 3, name: "Customer Support", link: "/support" },
   ];
 
   return (
@@ -113,6 +109,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
       {/* Bottom Footer */}
       <div className="border-t border-white/10 mt-18 py-6 flex items-center justify-between">
         <p className="text-base text-gray-400">

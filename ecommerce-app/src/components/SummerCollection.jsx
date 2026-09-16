@@ -5,7 +5,7 @@ import ProductCard from '../components/ProductCard'
 
 const SummerCollection = () => {
     return (
-        <div className="relative overflow-hidden px-10 pt-27">
+        <div className="relative overflow-hidden px-15 pt-27">
             <div className="relative z-10 text-center mb-10">
                 <span className='text-lg font-semibold bg-(--secondary-color) text-(--primary-color) py-2 px-4 rounded-lg mb-6 inline-block'>
                     Summer

@@ -20,7 +20,7 @@ const ProductCard = ({ product }) => {
             {product.description}
         </p>
         <div className="flex items-center justify-start gap-8">
-            <Link to={`/product/${product.id}`} state={{product}} className="group relative inline-flex items-center justify-center w-full px-10 py-7 overflow-hidden rounded-3xl bg-(--secondary-color) text-xl font-semibold text-(--primary-color)">
+            <Link to={`/product/${product.id}`}  className="group relative inline-flex items-center justify-center w-full px-10 py-7 overflow-hidden rounded-3xl bg-(--secondary-color) text-xl font-semibold text-(--primary-color)">
                 {/* Text Animation */}
                 <span className="relative z-10 h-6 overflow-hidden">
                     <span className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(.76,0,.24,1)] group-hover:-translate-y-1/2">
