@@ -28,7 +28,7 @@ const ShoesStyle = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden px-15 pt-27">
+    <div className="relative overflow-hidden px-25 pt-27">
       <div className="grid grid-cols-3 gap-8">
         {shoesStyle.map((item, index)=>(
           <div className="w-full h-190 relative overflow-hidden rounded-4xl group">

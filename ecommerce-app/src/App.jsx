@@ -4,8 +4,10 @@ import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
 import Faq from './pages/Faq'
+import Shop from './pages/Shop'
 import Contact from './pages/Contact'
-import ProductDetail from './pages/ProductDetail'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import TermsConditions from './pages/TermsConditions'
 
 function App() {
 
@@ -15,8 +17,10 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/faq" element={<Faq />}/>
+        <Route path="/shop" element={<Shop />}/>
         <Route path="/contact" element={<Contact />}/>
-        <Route path="/product/:id" element={<ProductDetail />}/>
+        <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
+        <Route path="/terms" element={<TermsConditions />}/>
       </Routes>
     </>
   )

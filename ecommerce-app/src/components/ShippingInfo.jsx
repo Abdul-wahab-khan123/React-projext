@@ -32,7 +32,7 @@ const ShippingInfo = () => {
   ];
 
   return (
-    <div className="bg-[#f8f7f4] py-20 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#f8f7f4] py-20 px-20 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-14">
           <span className='text-lg font-semibold bg-(--secondary-color) text-(--primary-color) py-2 px-4 rounded-lg mb-6 inline-block'>

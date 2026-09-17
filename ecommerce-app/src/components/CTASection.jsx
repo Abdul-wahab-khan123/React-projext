@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CTASection = () => {
     return (
-        <section className="px-10 py-20">
+        <section className="px-25 py-20">
             <div className="relative overflow-hidden rounded-4xl">
                 <img src="/public/cta.png" alt="Build Your Style" className="absolute w-full h-full object-cover" />
                 <div className="relative z-10 text-center p-56">

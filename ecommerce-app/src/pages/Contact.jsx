@@ -1,12 +1,13 @@
+import React from 'react'
 import Layout from '../Layout/Layout'
-import ContactBanner from '../components/ContactBanner'
+import InnerBanner from '../components/InnerBanner'
 import ContactSection from '../components/ContactSection'
 
 const Contact = () => {
   return (
     <div>
         <Layout>
-           <ContactBanner />
+           <InnerBanner title="Contact Sneakers" homepage="Home" innerpage="Contact" />
             <ContactSection />
         </Layout>
     </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
+
   const categories = [
     { id: 1, name: "Home", link: "/home" },
     { id: 2, name: "About", link: "/about" },
@@ -11,7 +11,7 @@ const Footer = () => {
   ];
 
   const legalLinks = [
-    { id: 1, name: "Privacy Policy", link: "/privacy" },
+    { id: 1, name: "Privacy Policy", link: "/privacy-policy" },
     { id: 2, name: "Terms & Conditions", link: "/terms" },
   ];
 
@@ -22,8 +22,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#1d160f] px-20 pt-20">
-
+    <footer className="bg-[#1d160f] px-25 pt-20">
       <div className="grid grid-cols-2 gap-10">
         <div>
           <h2 className="Recoleta text-white text-3xl font-bold mb-5">
@@ -109,8 +108,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
-      {/* Bottom Footer */}
       <div className="border-t border-white/10 mt-18 py-6 flex items-center justify-between">
         <p className="text-base text-gray-400">
           © 2026 Here. All rights reserved.
@@ -122,9 +119,9 @@ const Footer = () => {
           <Link to="/" className="text-base text-gray-400 bg-[#342617] py-2 px-4 rounded-4xl">LinkedIn</Link>
         </div>
       </div>
-
     </footer>
   );
+  
 };
 
 export default Footer;

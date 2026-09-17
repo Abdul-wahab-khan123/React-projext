@@ -1,11 +1,12 @@
+import React from 'react'
 import Layout from '../Layout/Layout'
-import FaqBanner from '../components/FaqBanner'
+import InnerBanner from '../components/InnerBanner'
 import FaqAccordion from "../components/FaqAccordion";
 
 const Faq = () => {
     return (
         <Layout>
-           <FaqBanner />
+           <InnerBanner title="Faqs Sneakers" homepage="Home" innerpage="Faqs" />
            <FaqAccordion />
         </Layout>
     )
