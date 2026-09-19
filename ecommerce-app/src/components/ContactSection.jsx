@@ -43,7 +43,7 @@ const ContactSection = () => {
         <div className="bg-white px-6 py-20 md:px-15 md:py-28">
             <div className="mx-auto grid grid-cols-2 gap-16">
                 <div>
-                    <span className='text-lg font-semibold bg-white text-(--primary-color) py-2 px-4 rounded-lg mb-6 inline-block'>
+                    <span className='text-lg font-semibold bg-(--secondary-color) text-(--primary-color) py-2 px-4 rounded-lg mb-6 inline-block'>
                         Get in touch
                     </span>
                     <h2 className="Recoleta max-w-xl text-5xl font-bold leading-tight text-(--primary-color) md:text-6xl">
