@@ -16,10 +16,10 @@ const ProductCard = ({ product }) => {
         <h4 className="text-3xl font-semibold text-(--primary-color) mb-3">
             {product.title}
         </h4>
-        <p className="text-lg font-medium text-(--light-color) mb-8">
+        <p className="h-14 overflow-y-auto custom-scrollbar text-lg font-medium text-(--text-color) mb-8 pr-2">
             {product.description}
         </p>
-        <div className="flex items-center justify-start gap-8">
+        <div className="flex items-center justify-start gap-6">
             <Link to={product.Addlink}  className="group relative inline-flex items-center justify-center w-full px-10 py-7 overflow-hidden rounded-3xl bg-(--secondary-color) text-xl font-semibold text-(--primary-color)">
                 {/* Text Animation */}
                 <span className="relative z-10 h-6 overflow-hidden">
@@ -33,7 +33,7 @@ const ProductCard = ({ product }) => {
                     </span>
                 </span>
             </Link>
-            <Link to={product.Buylink} className="group relative inline-flex items-center justify-center w-full px-10 py-7 overflow-hidden rounded-3xl bg-(--light-color) text-xl font-semibold text-(--secondary-color)">
+            <Link to={product.Buylink} className="group relative inline-flex items-center justify-center w-full px-10 py-7 overflow-hidden rounded-3xl bg-(--primary-color) text-xl font-semibold text-(--secondary-color)">
                 {/* Text Animation */}
                 <span className="relative z-10 h-6 overflow-hidden">
                     <span className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(.76,0,.24,1)] group-hover:-translate-y-1/2">
