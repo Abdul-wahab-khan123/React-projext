@@ -6,8 +6,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Air Max React",
         description: "Experience the perfect blend of style and comfort with this modern sneaker, designed for everyday wear.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 2,
@@ -16,8 +14,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Urban Runner Pro",
         description: "A lightweight everyday sneaker offering a clean look, comfortable fit, and reliable performance.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 3,
@@ -26,8 +22,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Classic Street Low",
         description: "Bring effortless street style to your everyday wardrobe with this timeless low-top sneaker.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 4,
@@ -36,8 +30,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Velocity Runner",
         description: "Built for active days with a responsive sole and a stylish silhouette that keeps you moving.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 5,
@@ -46,8 +38,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Essential Court",
         description: "A clean and versatile sneaker designed to pair effortlessly with your everyday outfits.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 6,
@@ -56,8 +46,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Street Force",
         description: "Make a statement with a bold street-inspired design built for comfort and confidence.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 7,
@@ -66,8 +54,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Daily Flex",
         description: "Simple, comfortable, and easy to wear, this sneaker is made for your daily routine.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 8,
@@ -76,8 +62,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Aero Motion",
         description: "Enjoy a premium combination of lightweight construction, modern style, and everyday comfort.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 9,
@@ -86,8 +70,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Retro Classic",
         description: "A modern take on classic sneaker styling, bringing timeless character to your collection.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 10,
@@ -96,8 +78,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Performance Edge",
         description: "Designed for active lifestyles with supportive cushioning and a sleek athletic appearance.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 11,
@@ -106,8 +86,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Modern Classic",
         description: "A refined sneaker with a minimalist design that works perfectly from day to night.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 12,
@@ -116,8 +94,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Urban Pace",
         description: "Designed for city life with a comfortable build and a contemporary streetwear aesthetic.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 13,
@@ -126,8 +102,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Everyday Essential",
         description: "A versatile everyday sneaker offering dependable comfort and effortless styling.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 14,
@@ -136,8 +110,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Premium Runner",
         description: "Premium materials and modern cushioning come together in this sophisticated running-inspired design.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 15,
@@ -146,8 +118,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Motion Street",
         description: "A comfortable street sneaker created for those who want style without sacrificing all-day comfort.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 16,
@@ -156,8 +126,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Urban Legend",
         description: "A bold everyday silhouette combining premium details with a confident urban attitude.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 17,
@@ -166,8 +134,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Metro Flex",
         description: "A flexible modern sneaker designed for everyday city wear, casual outfits, and lasting comfort.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 18,
@@ -176,8 +142,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Elite Runner",
         description: "Experience premium comfort and performance with an elevated sneaker built for active days.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 19,
@@ -186,8 +150,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Street Essential",
         description: "A fresh streetwear-inspired sneaker that brings comfort and personality to every outfit.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 20,
@@ -196,8 +158,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "City Motion",
         description: "A modern sneaker built for comfortable daily movement and effortless street style.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 21,
@@ -206,8 +166,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Street Pulse",
         description: "A clean streetwear sneaker combining everyday comfort with a confident urban look.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 22,
@@ -216,8 +174,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Active Motion",
         description: "Responsive cushioning and an athletic silhouette make this ideal for active everyday wear.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 23,
@@ -226,8 +182,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Metro Runner",
         description: "A lightweight urban sneaker made for long days, relaxed outfits, and dependable comfort.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 24,
@@ -236,8 +190,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Core Runner",
         description: "A versatile athletic-inspired sneaker with supportive construction and a modern profile.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 25,
@@ -246,8 +198,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Street Core",
         description: "A casual street sneaker designed to deliver an easy fit and contemporary everyday styling.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 26,
@@ -256,8 +206,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Velocity Max",
         description: "Premium cushioning and a performance-inspired design provide comfort from morning to night.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 27,
@@ -266,8 +214,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Retro Court",
         description: "Classic court styling meets modern comfort in this versatile everyday sneaker.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 28,
@@ -276,8 +222,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Urban Glide",
         description: "A smooth and lightweight sneaker made for relaxed city walks and casual streetwear.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 29,
@@ -286,8 +230,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Power Street",
         description: "Bold proportions and supportive cushioning create a sneaker with a strong urban presence.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 30,
@@ -296,8 +238,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Daily Motion",
         description: "An easy everyday sneaker combining a lightweight feel with versatile casual styling.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 31,
@@ -306,8 +246,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Metro Classic",
         description: "A refined low-profile sneaker designed to work seamlessly with modern casual wardrobes.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 32,
@@ -316,8 +254,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Performance Max",
         description: "A performance-focused sneaker offering responsive support and a bold athletic aesthetic.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 33,
@@ -326,8 +262,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Essential Low",
         description: "Minimal styling and dependable comfort make this low-top sneaker an everyday essential.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 34,
@@ -336,8 +270,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Runner Elite",
         description: "An athletic sneaker combining supportive construction with a sharp contemporary design.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 35,
@@ -346,8 +278,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Urban Trek",
         description: "Built for busy days with durable construction, comfortable support, and versatile styling.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 36,
@@ -356,8 +286,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Street Walker",
         description: "A comfortable casual sneaker made for daily walks and laid-back streetwear combinations.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 37,
@@ -366,8 +294,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Dynamic Runner",
         description: "Modern cushioning and an energetic silhouette deliver comfort with an athletic edge.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 38,
@@ -376,8 +302,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Bold Runner",
         description: "A striking running-inspired sneaker designed to bring energy and color to everyday outfits.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 39,
@@ -386,8 +310,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Heritage Low",
         description: "Classic sneaker proportions meet modern comfort in this timeless casual design.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 40,
@@ -396,8 +318,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Aero Performance",
         description: "A premium athletic sneaker designed around lightweight comfort and responsive everyday support.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 41,
@@ -406,8 +326,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Minimal Street",
         description: "Clean lines and understated styling make this sneaker ideal for modern everyday outfits.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 42,
@@ -416,8 +334,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Color Court",
         description: "A vibrant casual sneaker combining classic court influence with a fresh modern personality.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 43,
@@ -426,8 +342,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Motion Pro",
         description: "A streamlined sneaker offering supportive comfort for active days and everyday movement.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 44,
@@ -436,8 +350,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Vintage Street",
         description: "Retro-inspired details give this comfortable everyday sneaker a timeless streetwear character.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 45,
@@ -446,8 +358,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Aero Flex",
         description: "Lightweight construction and flexible support create a comfortable sneaker for active lifestyles.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 46,
@@ -456,8 +366,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Street Impact",
         description: "A bold street sneaker with a confident silhouette and comfortable everyday construction.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 47,
@@ -466,8 +374,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Elite Motion",
         description: "Premium materials and supportive cushioning provide an elevated experience for everyday wear.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 48,
@@ -476,8 +382,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Casual Flex",
         description: "An uncomplicated everyday sneaker designed around comfort, flexibility, and easy styling.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 49,
@@ -486,8 +390,6 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Premium Street",
         description: "A sophisticated street sneaker blending premium styling with comfortable everyday performance.",
-        Addlink: "/",
-        Buylink: "/",
     },
     {
         id: 50,
@@ -496,7 +398,5 @@ export const MenCollection = [
         category: "Men's sneakers",
         title: "Everyday Runner",
         description: "A versatile final addition built for casual outfits, daily movement, and dependable comfort.",
-        Addlink: "/",
-        Buylink: "/",
     },
 ];

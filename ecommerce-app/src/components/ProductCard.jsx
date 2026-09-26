@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
         <div className="w-full h-120 relative overflow-hidden rounded-4xl group">
             <img src={product.image} alt={product.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110" />
         </div>
-        <div className="flex items-center justify-between mt-8 mb-8">
+        <div className="lg:flex items-center justify-between mt-8 mb-8">
             <h3 className="text-5xl font-bold text-(--primary-color)">{product.price}</h3>
             <span className="text-base font-semibold bg-[#ded0c1] text-(--primary-color) px-5 py-2 rounded-full">
                 {product.category}
@@ -19,29 +19,16 @@ const ProductCard = ({ product }) => {
         <p className="h-14 overflow-y-auto custom-scrollbar text-lg font-medium text-(--text-color) mb-8 pr-2">
             {product.description}
         </p>
-        <div className="flex items-center justify-start gap-6">
-            <Link to={product.Addlink}  className="group relative inline-flex items-center justify-center w-full px-10 py-7 overflow-hidden rounded-3xl bg-(--secondary-color) text-xl font-semibold text-(--primary-color)">
+        <div className="lg:flex items-center justify-start gap-6">
+            <Link to={`/product/${product.id}`}  className="group relative inline-flex items-center justify-center w-full px-10 py-7 overflow-hidden rounded-3xl bg-(--primary-color) text-xl font-semibold text-(--secondary-color)">
                 {/* Text Animation */}
                 <span className="relative z-10 h-6 overflow-hidden">
                     <span className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(.76,0,.24,1)] group-hover:-translate-y-1/2">
                         <span className="flex h-6 items-center justify-center">
-                            Add to Cart
+                            View Detail
                         </span>
                         <span className="flex h-6 items-center justify-center">
-                            Add to Cart
-                        </span>
-                    </span>
-                </span>
-            </Link>
-            <Link to={product.Buylink} className="group relative inline-flex items-center justify-center w-full px-10 py-7 overflow-hidden rounded-3xl bg-(--primary-color) text-xl font-semibold text-(--secondary-color)">
-                {/* Text Animation */}
-                <span className="relative z-10 h-6 overflow-hidden">
-                    <span className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(.76,0,.24,1)] group-hover:-translate-y-1/2">
-                        <span className="flex h-6 items-center justify-center">
-                            Buy Now
-                        </span>
-                        <span className="flex h-6 items-center justify-center">
-                            Buy Now
+                            View Detail
                         </span>
                     </span>
                 </span>

@@ -6,8 +6,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Mini Runner",
     description: "A lightweight everyday sneaker designed for active kids and comfortable all-day movement.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 102,
@@ -16,8 +14,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Color Pop",
     description: "A playful colorful sneaker made for school days, weekends, and everyday adventures.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 103,
@@ -26,8 +22,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Little Classic",
     description: "Classic casual styling meets kid-friendly comfort in this versatile everyday sneaker.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 104,
@@ -36,8 +30,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Junior Active",
     description: "Supportive cushioning helps keep little feet comfortable through active days and playtime.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 105,
@@ -46,8 +38,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Daily Play",
     description: "A simple and flexible sneaker designed for everyday play, school, and casual outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 106,
@@ -56,8 +46,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Speed Junior",
     description: "An energetic athletic sneaker made for running, playing, and busy days on the move.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 107,
@@ -66,8 +54,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Mini Street",
     description: "Clean streetwear styling gives kids a cool everyday look without sacrificing comfort.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 108,
@@ -76,8 +62,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Air Junior",
     description: "Lightweight construction and soft cushioning provide comfortable support for active feet.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 109,
@@ -86,8 +70,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Junior Classic",
     description: "A timeless low-top sneaker designed to pair easily with everyday kid's outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 110,
@@ -96,8 +78,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Street Hero",
     description: "Bold styling and a comfortable fit make this sneaker ready for everyday adventures.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 111,
@@ -106,8 +86,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Mini Air",
     description: "A sporty sneaker with comfortable cushioning designed to keep up with energetic kids.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 112,
@@ -116,8 +94,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Everyday Junior",
     description: "A dependable everyday sneaker offering an easy fit and versatile casual styling.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 113,
@@ -126,8 +102,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Junior Elite",
     description: "A premium athletic-inspired sneaker with supportive comfort for active young feet.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 114,
@@ -136,8 +110,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Play Motion",
     description: "Flexible construction makes this sneaker ideal for playground fun and everyday activities.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 115,
@@ -146,8 +118,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Urban Junior",
     description: "Modern urban styling meets kid-friendly comfort in this versatile casual sneaker.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 116,
@@ -156,8 +126,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Mini Flex",
     description: "A flexible and lightweight sneaker made to support comfortable everyday movement.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 117,
@@ -166,8 +134,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Retro Kid",
     description: "Fun retro-inspired styling brings classic sneaker character to everyday kid's outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 118,
@@ -176,8 +142,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Core Junior",
     description: "Supportive construction and sporty styling make this a reliable sneaker for active days.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 119,
@@ -186,8 +150,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Little Street",
     description: "A comfortable street-inspired sneaker with a fun look for everyday casual wear.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 120,
@@ -196,8 +158,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Junior Velocity",
     description: "Responsive support and an energetic design make this sneaker perfect for active kids.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 121,
@@ -206,8 +166,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Mini Glide",
     description: "A smooth lightweight sneaker designed for school, playtime, and relaxed family days.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 122,
@@ -216,8 +174,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Power Kid",
     description: "A bold chunky sneaker offering supportive comfort and playful streetwear style.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 123,
@@ -226,8 +182,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Daily Junior",
     description: "Lightweight comfort and simple styling make this an easy choice for everyday wear.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 124,
@@ -236,8 +190,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Metro Mini",
     description: "A clean city-inspired sneaker with a comfortable build for young everyday explorers.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 125,
@@ -246,8 +198,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Junior Performance",
     description: "Athletic support and responsive cushioning help kids stay comfortable while moving.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 126,
@@ -256,8 +206,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Essential Mini",
     description: "A clean low-top sneaker made for simple styling, school days, and everyday comfort.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 127,
@@ -266,8 +214,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Runner Junior",
     description: "A sporty everyday sneaker offering supportive construction for energetic young runners.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 128,
@@ -276,8 +222,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Adventure Mini",
     description: "Durable construction and comfortable support make this ideal for everyday adventures.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 129,
@@ -286,8 +230,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Little Walker",
     description: "A relaxed casual sneaker designed to keep young feet comfortable throughout the day.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 130,
@@ -296,8 +238,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Dynamic Junior",
     description: "Sporty styling and responsive comfort create an energetic sneaker for active children.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 131,
@@ -306,8 +246,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Red Rocket",
     description: "A bright athletic sneaker with bold personality for energetic school and weekend outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 132,
@@ -316,8 +254,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Heritage Mini",
     description: "Classic sneaker styling gives young wardrobes an easy and timeless casual option.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 133,
@@ -326,8 +262,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Aero Junior",
     description: "Lightweight athletic construction provides comfortable support for busy active days.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 134,
@@ -336,8 +270,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Mini Essential",
     description: "Minimal styling and a comfortable fit make this sneaker easy to wear every day.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 135,
@@ -346,8 +278,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Rainbow Street",
     description: "A colorful casual sneaker that adds playful personality to kid's everyday outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 136,
@@ -356,8 +286,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Motion Junior",
     description: "Flexible support and sporty construction make this sneaker ready for active play.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 137,
@@ -366,8 +294,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Vintage Mini",
     description: "A fun retro-inspired sneaker offering classic looks with comfortable everyday wear.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 138,
@@ -376,8 +302,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Air Flex Junior",
     description: "Lightweight cushioning and flexible support help keep active young feet comfortable.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 139,
@@ -386,8 +310,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Street Star",
     description: "A bold street-style sneaker designed for kids who love standout casual looks.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 140,
@@ -396,8 +318,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Elite Junior",
     description: "Premium athletic styling and supportive cushioning provide elevated everyday comfort.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 141,
@@ -406,8 +326,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Easy Play",
     description: "A simple flexible sneaker designed for comfortable school days and everyday play.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 142,
@@ -416,8 +334,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Air Star",
     description: "Sporty cushioning and a modern silhouette create a comfortable sneaker for young movers.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 143,
@@ -426,8 +342,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Everyday Star",
     description: "A versatile everyday sneaker designed to work with school, weekend, and casual outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 144,
@@ -436,8 +350,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "City Junior",
     description: "Modern city styling combines with comfortable construction for everyday young explorers.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 145,
@@ -446,8 +358,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Street Buddy",
     description: "A friendly everyday sneaker with relaxed styling and comfortable kid-ready construction.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 146,
@@ -456,8 +366,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Active Star",
     description: "Responsive support helps keep energetic kids comfortable during sports and everyday activities.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 147,
@@ -466,8 +374,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Metro Junior",
     description: "A fun modern sneaker combining comfortable everyday wear with fresh city-inspired styling.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 148,
@@ -476,8 +382,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Core Kid",
     description: "A supportive athletic-inspired sneaker designed for school, play, and active weekends.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 149,
@@ -486,8 +390,6 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Street Junior",
     description: "Contemporary street styling and an easy fit make this a versatile kid's sneaker.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 150,
@@ -496,7 +398,5 @@ export const KidsCollection = [
     category: "Kid's sneakers",
     title: "Signature Mini",
     description: "A stylish everyday sneaker combining classic character with comfortable kid-friendly construction.",
-    Addlink: "/",
-    Buylink: "/",
   },
 ];

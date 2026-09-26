@@ -6,8 +6,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Rose Street",
     description: "A stylish everyday sneaker combining lightweight comfort with a clean modern silhouette.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 52,
@@ -16,8 +14,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Urban Bloom",
     description: "A versatile casual sneaker designed for effortless styling and comfortable everyday wear.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 53,
@@ -26,8 +22,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Classic Grace",
     description: "Timeless sneaker styling with a comfortable fit made for daily outfits and relaxed weekends.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 54,
@@ -36,8 +30,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Velocity Rose",
     description: "An energetic running-inspired sneaker offering responsive comfort and bold contemporary style.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 55,
@@ -46,8 +38,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Retro Charm",
     description: "A retro-inspired low-top sneaker that brings timeless character to modern casual looks.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 56,
@@ -56,8 +46,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Active Cloud",
     description: "Supportive cushioning and lightweight construction make this sneaker ideal for active days.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 57,
@@ -66,8 +54,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Minimal Muse",
     description: "A refined minimalist sneaker designed to complement both relaxed and polished outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 58,
@@ -76,8 +62,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Aero Grace",
     description: "Lightweight materials and responsive support provide premium comfort throughout the day.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 59,
@@ -86,8 +70,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Motion Flex",
     description: "A flexible athletic sneaker created for movement, comfort, and contemporary everyday style.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 60,
@@ -96,8 +78,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Street Luxe",
     description: "A bold street-inspired sneaker combining premium details with comfortable daily performance.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 61,
@@ -106,8 +86,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Daily Comfort",
     description: "An easy-to-wear sneaker designed around flexibility, simplicity, and dependable comfort.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 62,
@@ -116,8 +94,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Air Motion",
     description: "A modern athletic silhouette with soft cushioning for comfortable all-day movement.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 63,
@@ -126,8 +102,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Everyday Glow",
     description: "A versatile everyday sneaker with clean styling and an easy comfortable fit.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 64,
@@ -136,8 +110,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Elite Runner",
     description: "Premium cushioning and athletic styling come together for elevated everyday performance.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 65,
@@ -146,8 +118,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "City Breeze",
     description: "A lightweight city sneaker designed for relaxed walks and effortless casual styling.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 66,
@@ -156,8 +126,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Urban Grace",
     description: "A sophisticated street sneaker balancing modern design with reliable everyday comfort.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 67,
@@ -166,8 +134,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Metro Soft",
     description: "Flexible construction and a clean profile make this an ideal everyday city sneaker.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 68,
@@ -176,8 +142,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Retro Court",
     description: "Classic court influences meet contemporary comfort in this versatile casual sneaker.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 69,
@@ -186,8 +150,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Core Motion",
     description: "A supportive athletic sneaker built for comfortable movement throughout busy days.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 70,
@@ -196,8 +158,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Street Blossom",
     description: "Modern streetwear styling combines with a comfortable build for effortless everyday outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 71,
@@ -206,8 +166,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Velocity Air",
     description: "A performance-inspired sneaker offering responsive cushioning and lightweight support.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 72,
@@ -216,8 +174,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Urban Flow",
     description: "Smooth lines and flexible comfort create an easy sneaker for everyday city life.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 73,
@@ -226,8 +182,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Power Bloom",
     description: "A confident chunky silhouette with supportive cushioning and contemporary street appeal.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 74,
@@ -236,8 +190,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Daily Breeze",
     description: "Lightweight everyday comfort paired with versatile styling for casual wardrobes.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 75,
@@ -246,8 +198,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Metro Chic",
     description: "A clean modern sneaker made to complement contemporary everyday outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 76,
@@ -256,8 +206,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Performance Glow",
     description: "Responsive support and a performance-focused profile make this ideal for active lifestyles.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 77,
@@ -266,8 +214,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Essential Low",
     description: "A simple low-top sneaker delivering clean style and dependable everyday comfort.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 78,
@@ -276,8 +222,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Runner Grace",
     description: "Athletic inspiration and supportive construction combine in a polished modern sneaker.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 79,
@@ -286,8 +230,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Urban Trek",
     description: "Durable everyday construction with a comfortable fit designed for busy city days.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 80,
@@ -296,8 +238,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Street Walk",
     description: "Relaxed styling and comfortable construction make this sneaker ideal for everyday walking.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 81,
@@ -306,8 +246,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Dynamic Air",
     description: "An energetic athletic sneaker combining modern cushioning with contemporary styling.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 82,
@@ -316,8 +254,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Scarlet Runner",
     description: "A bold running-inspired sneaker that adds energetic character to everyday outfits.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 83,
@@ -326,8 +262,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Heritage Grace",
     description: "Timeless sneaker proportions updated with comfortable materials for modern everyday wear.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 84,
@@ -336,8 +270,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Aero Elite",
     description: "Lightweight athletic construction delivers premium comfort and responsive everyday support.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 85,
@@ -346,8 +278,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Minimal Glow",
     description: "An understated sneaker with clean lines designed for effortless contemporary styling.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 86,
@@ -356,8 +286,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Color Pop",
     description: "A playful casual sneaker bringing fresh personality and everyday comfort to your wardrobe.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 87,
@@ -366,8 +294,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Motion Plus",
     description: "Supportive cushioning and flexible construction provide comfort for active everyday routines.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 88,
@@ -376,8 +302,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Vintage Muse",
     description: "Retro styling meets modern comfort in a sneaker designed for relaxed casual looks.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 89,
@@ -386,8 +310,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Aero Soft",
     description: "A lightweight performance sneaker designed to provide flexible support throughout the day.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 90,
@@ -396,8 +318,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Street Icon",
     description: "A statement street sneaker with bold proportions and comfortable everyday construction.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 91,
@@ -406,8 +326,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Elite Grace",
     description: "Premium materials and responsive support create an elevated sneaker for everyday wear.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 92,
@@ -416,8 +334,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Casual Soft",
     description: "Simple styling and flexible comfort make this sneaker a reliable everyday choice.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 93,
@@ -426,8 +342,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Premium Air",
     description: "A sophisticated athletic sneaker blending premium design with comfortable daily performance.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 94,
@@ -436,8 +350,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Everyday Muse",
     description: "A versatile casual sneaker designed for comfortable movement and effortless styling.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 95,
@@ -446,8 +358,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "City Grace",
     description: "Contemporary styling and supportive comfort make this ideal for everyday city life.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 96,
@@ -456,8 +366,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Street Charm",
     description: "A relaxed streetwear sneaker offering comfortable construction and timeless casual appeal.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 97,
@@ -466,8 +374,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Active Elite",
     description: "A responsive athletic sneaker made for active routines without compromising modern style.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 98,
@@ -476,8 +382,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Metro Bloom",
     description: "A comfortable modern sneaker combining fresh styling with an easy everyday fit.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 99,
@@ -486,8 +390,6 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Core Grace",
     description: "Supportive construction and modern proportions create a versatile athletic-inspired sneaker.",
-    Addlink: "/",
-    Buylink: "/",
   },
   {
     id: 100,
@@ -496,7 +398,5 @@ export const WomenCollection = [
     category: "Women's sneakers",
     title: "Signature Street",
     description: "A polished streetwear sneaker combining modern character with reliable everyday comfort.",
-    Addlink: "/",
-    Buylink: "/",
   },
 ];

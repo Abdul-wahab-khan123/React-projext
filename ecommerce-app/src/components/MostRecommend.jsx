@@ -12,7 +12,7 @@ const MostRecommend = () => {
             width: "w-full",
             height: "h-250",
             btnName: "View all sneakers",
-            link: "/",
+            link: "/shop",
         },
         {
             id: 2,
@@ -22,7 +22,7 @@ const MostRecommend = () => {
             width: "w-full",
             height: "h-120",
             btnName: "View all sneakers",
-            link: "/",
+            link: "/shop",
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const MostRecommend = () => {
             width: "w-full",
             height: "h-120",
             btnName: "View all sneakers",
-            link: "/",
+            link: "/shop",
         },
         {
             id: 4,
@@ -42,7 +42,7 @@ const MostRecommend = () => {
             width: "w-full",
             height: "h-180",
             btnName: "Explore Shop",
-            link: "/",
+            link: "/shop",
         },
     ];
     return (
@@ -58,8 +58,8 @@ const MostRecommend = () => {
                     Discover the latest additions to our collection, featuring the newest <br></br> designs and styles.
                 </p>
             </div>
-            <div className="grid grid-cols-2 gap-8">
-                {mostCommen.map((item, index) => (
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
+                {mostCommen.map((item) => (
                     <div className={`${item.className}`}>
                         <div className={`${item.width} ${item.height} relative overflow-hidden rounded-4xl group`}>
                             <img src={item.image} alt={item.title} className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110" />

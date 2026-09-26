@@ -9,21 +9,21 @@ const ShoesStyle = () => {
       title: "Sneakers That Move With You, Comfortable, Durable, And Always In Style.",
       image:
         "https://images.openai.com/static-rsc-4/K2F-jzNFq1mN4YxujEjICQkdbiHrmtIU9eOqB7spyTmQhPpTl87tJS1-bFS4Y24aaKqGYhGT8AYcyD6YHPuo3X4iu3XXIZxme7yWFokkD89UJdtsW-lltn0k00tKABEmq0pBN8jZmnJGY3h_5HKMiEjXyDzqp9Dwtm2DpyoFvmctvFLGmiQ6evyelebo1XGD?purpose=fullsize",
-      link: "/",
+      link: "/shop",
     },
     {
       id: 2,
       title: "Fresh Drops, Iconic Silhouettes, Sneakers That Speak Before You Do.",
       image:
         "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800",
-      link: "/",
+      link: "/shop",
     },
     {
       id: 3,
       title: "Style Meets Performance In Every Step You Take.",
       image:
         "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800",
-      link: "/",
+      link: "/shop",
     },
   ];
 

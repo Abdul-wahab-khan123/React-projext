@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
 
   const categories = [
-    { id: 1, name: "Home", link: "/home" },
+    { id: 1, name: "Home", link: "/" },
     { id: 2, name: "About", link: "/about" },
     { id: 3, name: "Shop", link: "/shop" },
     { id: 4, name: "Contact Us", link: "/contact" },
@@ -23,11 +23,9 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#1d160f] px-25 pt-20">
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
         <div>
-          <h2 className="Recoleta text-white text-3xl font-bold mb-5">
-            LOGO HERE
-          </h2>
+          <img src="/public/logo.png" alt="logo" className="w-40 mb-8" />
           <p className="text-base text-gray-300 w-4/6 mb-20">
             Premium sneakers designed to bring comfort, confidence,
             and timeless style to every step.
@@ -35,23 +33,23 @@ const Footer = () => {
           <h4 className="Recoleta text-white text-2xl mb-6">
             Subscribe to Newsletter
           </h4>
-          <div className="flex items-center max-w-lg p-1 bg-[#342617] border border-[#4a392b] rounded-2xl">
-            <input type="email" placeholder="Enter your email" className="flex-1 bg-transparent px-3 text-base text-white placeholder:text-gray-400 outline-none" />
+          <div className="flex items-center lg:max-w-lg p-1 bg-[#342617] border border-[#4a392b] rounded-2xl">
+            <input type="email" placeholder="Enter your email" className="lg:flex-1 bg-transparent px-3 text-base text-white placeholder:text-gray-400 outline-none" />
             <button to="" className="group relative inline-flex items-center justify-center px-8 py-4 overflow-hidden rounded-xl bg-(--secondary-color) text-lg font-semibold text-(--primary-color)">
-                <span className="relative z-10 h-6 overflow-hidden">
-                    <span className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(.76,0,.24,1)] group-hover:-translate-y-1/2">
-                        <span className="flex h-6 items-center justify-center">
-                            Subscribe
-                        </span>
-                        <span className="flex h-6 items-center justify-center">
-                            Subscribe
-                        </span>
-                    </span>
+              <span className="relative z-10 h-6 overflow-hidden">
+                <span className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(.76,0,.24,1)] group-hover:-translate-y-1/2">
+                  <span className="flex h-6 items-center justify-center">
+                    Subscribe
+                  </span>
+                  <span className="flex h-6 items-center justify-center">
+                    Subscribe
+                  </span>
                 </span>
+              </span>
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
           {/* categories */}
           <div>
             <h3 className="Recoleta text-white text-2xl mb-6">
@@ -62,7 +60,7 @@ const Footer = () => {
                 <li key={item.id}>
                   <Link to={item.link} className="group relative transition-all duration-500 ease-out hover:text-white">
                     {item.name}
-                  {/* Hover Line */}
+                    {/* Hover Line */}
                     <span className=" absolute left-0 -bottom-1 h-0.5 w-full origin-left scale-x-0 bg-white transition-transform duration-500 ease-out group-hover:scale-x-100 group-hover:origin-left group-focus-within:scale-x-100">
                     </span>
                   </Link>
@@ -108,11 +106,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-white/10 mt-18 py-6 flex items-center justify-between">
+      <div className="border-t border-white/10 mt-18 py-6 lg:flex items-center justify-between">
         <p className="text-base text-gray-400">
           © 2026 Here. All rights reserved.
         </p>
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
           <Link to="/" className="text-base text-gray-400 bg-[#342617] py-2 px-4 rounded-4xl">Facebook</Link>
           <Link to="/" className="text-base text-gray-400 bg-[#342617] py-2 px-4 rounded-4xl">Instagram</Link>
           <Link to="/" className="text-base text-gray-400 bg-[#342617] py-2 px-4 rounded-4xl">Twitter</Link>
@@ -121,7 +119,7 @@ const Footer = () => {
       </div>
     </footer>
   );
-  
+
 };
 
 export default Footer;

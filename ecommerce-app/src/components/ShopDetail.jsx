@@ -1,9 +1,11 @@
 
 import React, { useRef, useState } from "react";
 import ProductCard from "../components/ProductCard";
+import FilterPanel from "../components/FilterPanel";
 import { MenCollection } from "../Data/MenCollection";
 import { WomenCollection } from "../Data/WomenCollection";
 import { KidsCollection } from "../Data/KidsCollection";
+import { FaXmark } from "react-icons/fa6";
 
 const ShopDetail = () => {
 
@@ -91,76 +93,49 @@ const ShopDetail = () => {
 
     return (
         <div className="px-12 py-18">
+            {isFilterOpen && (
+                <div className="fixed inset-0 z-50 lg:hidden">
+                    {/* Dark Background */}
+                    <div className="absolute inset-0 bg-black/50" onClick={() => setIsFilterOpen(false)} />
+                    {/* Filter Drawer */}
+                    <div className="absolute right-0 top-0 h-full w-[85%] max-w-sm overflow-y-auto bg-white p-6 shadow-xl">
+                        {/* Drawer Header */}
+                        <div className="mb-8 flex items-center justify-end">
+                            <button type="button" onClick={() => setIsFilterOpen(false)} className="flex h-10 w-10 items-center justify-center rounded-full border text-2xl bg-(--primary-color) text-(--secondary-color)">
+                                <FaXmark />
+                            </button>
+                        </div>
+                        {/* FILTERS WILL GO HERE */}
+                        <aside className="h-fit block lg:hidden">
+                            <FilterPanel
+                                searchQuery={searchQuery}
+                                setSearchQuery={setSearchQuery}
+                                activeCategory={activeCategory}
+                                setActiveCategory={setActiveCategory}
+                                activePrice={activePrice}
+                                setActivePrice={setActivePrice}
+                                setCurrentPage={setCurrentPage}
+                            />
+                        </aside>
+                    </div>
+                </div>
+            )}
             <div className="mx-auto grid grid-cols-1 gap-8 lg:grid-cols-[300px_minmax(0,1fr)]">
                 {/* LEFT SIDEBAR */}
-                <button type="button" onClick={() => setIsFilterOpen(!isFilterOpen)} aria-expanded={isFilterOpen} aria-controls="shop-filters" className="flex w-full items-center justify-between rounded-lg border border-gray-300 px-4 py-3 font-semibold lg:hidden">
+                <button type="button" onClick={() => setIsFilterOpen(!isFilterOpen)} aria-expanded={isFilterOpen} className="flex w-full items-center justify-between rounded-lg border border-gray-300 px-4 py-3 font-semibold lg:hidden">
                     <span>Filters</span>
                     <span>{isFilterOpen ? "−" : "+"}</span>
                 </button>
-                <aside  id="shop-filters" className={`h-fit rounded-[28px] border border-[#efe4d9] bg-[#f9f5f1] p-5 shadow-[0_20px_45px_rgba(33,29,25,0.07)] ring-1 ring-white/60 backdrop-blur-sm lg:sticky lg:top-6 lg:p-6 ${ isFilterOpen ? "block" : "hidden"} lg:block`}>
-                    <div className="mb-6 flex items-center justify-between gap-3">
-                        <div>
-                            <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#8b7665]">Browse</p>
-                            <h2 className="mt-2 text-2xl font-bold text-[#1b1b1b]">Filters</h2>
-                        </div>
-                        <button type="button" onClick={() => { setActiveCategory("All"); setActivePrice("All"); setSearchQuery(""); }}
-                            className="rounded-full border border-[#e3d6ca] bg-white px-3 py-1.5 text-xs font-medium text-[#4d413a] transition hover:border-[#cbb7a4] hover:text-[#1b1b1b]">
-                            Clear
-                        </button>
-                    </div>
-                    <div className="mb-8">
-                        <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-[#7b675a]">Search Products</h3>
-                        <input type="search" placeholder="Search sneakers..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} className="w-full rounded-lg border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
-                    </div>
-                    <div className="mt-8 border-t border-[#e9dfd5] pt-6">
-                        <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-[#7b675a]">Categories</h3>
-                        <div className="space-y-2.5">
-                            {["All", "Men", "Women", "Kid"].map((category) => {
-                                const isActive = activeCategory === category;
-                                return (
-                                    <button key={category} type="button" onClick={() => setActiveCategory(category)}
-                                        className={`flex w-full items-center justify-between rounded-2xl border px-3 py-2.5 text-left text-sm font-medium transition ${isActive
-                                            ? "border-[#2d2017] bg-[#2d2017] text-white shadow-[0_10px_20px_rgba(45,32,23,0.18)]"
-                                            : "border-[#efe4d9] bg-white text-[#3a312b] hover:border-[#d9c7b5] hover:bg-[#fbf7f4]"
-                                            }`}
-                                    >
-                                        <span>{category}</span>
-                                        <span className={`h-2.5 w-2.5 rounded-full border ${isActive ? "border-white bg-white" : "border-[#c7b3a2] bg-transparent"
-                                            }`} />
-                                    </button>
-                                );
-                            })}
-                        </div>
-                    </div>
-                    <div className="mt-8 border-t border-[#e9dfd5] pt-6">
-                        <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest text-[#7b675a]">Price Range</h3>
-                        <div className="space-y-2.5">
-                            {[
-                                { label: "All Prices", value: "All" },
-                                { label: "Under $100", value: "under100" },
-                                { label: "$100 – $200", value: "100to200" },
-                                { label: "Over $200", value: "over200" },
-                            ].map((price) => {
-                                const isActive = activePrice === price.value;
-
-                                return (
-                                    <button
-                                        key={price.value}
-                                        type="button"
-                                        onClick={() => setActivePrice(price.value)}
-                                        className={`flex w-full items-center justify-between rounded-2xl border px-3 py-2.5 text-left text-sm font-medium transition ${isActive
-                                            ? "border-[#2d2017] bg-[#2d2017] text-white shadow-[0_10px_20px_rgba(45,32,23,0.18)]"
-                                            : "border-[#efe4d9] bg-white text-[#3a312b] hover:border-[#d9c7b5] hover:bg-[#fbf7f4]"
-                                            }`}
-                                    >
-                                        <span>{price.label}</span>
-                                        <span className={`h-2.5 w-2.5 rounded-full border ${isActive ? "border-white bg-white" : "border-[#c7b3a2] bg-transparent"
-                                            }`} />
-                                    </button>
-                                );
-                            })}
-                        </div>
-                    </div>
+                <aside className="h-fit rounded-[28px] border border-[#efe4d9] bg-[#f9f5f1] p-5 shadow-[0_20px_45px_rgba(33,29,25,0.07)] ring-1 ring-white/60 backdrop-blur-sm lg:sticky lg:top-6 lg:p-6 hidden lg:block">
+                    <FilterPanel
+                        searchQuery={searchQuery}
+                        setSearchQuery={setSearchQuery}
+                        activeCategory={activeCategory}
+                        setActiveCategory={setActiveCategory}
+                        activePrice={activePrice}
+                        setActivePrice={setActivePrice}
+                        setCurrentPage={setCurrentPage}
+                    />
                 </aside>
                 {/* RIGHT PRODUCTS */}
                 <div ref={productsTopRef} className="min-w-0">
@@ -168,11 +143,11 @@ const ShopDetail = () => {
                         <span className='text-lg font-semibold bg-(--secondary-color) text-(--primary-color) py-2 px-4 rounded-lg mb-6 inline-block'>
                             Our Collection
                         </span>
-                        <div className="flex items-center justify-between">
+                        <div className="lg:flex items-center justify-between">
                             <h2 className="text-5xl font-bold">
                                 Shop All Sneakers
                             </h2>
-                            <div className="flex items-center justify-between gap-4">
+                            <div className="lg:flex items-center justify-between gap-4">
                                 <p className="text-base text-gray-500">
                                     {sortedProducts.length === 0
                                         ? "Showing 0 products"
@@ -220,7 +195,6 @@ const ShopDetail = () => {
                     )}
                 </div>
             </div>
-
             {totalPages > 1 && (
                 <div className="mt-10 flex flex-wrap items-center justify-center gap-2">
                     <button type="button" disabled={currentPage === 1} onClick={() => goToPage(currentPage - 1)} className="rounded-lg border px-4 py-2 disabled:cursor-not-allowed disabled:opacity-40">
